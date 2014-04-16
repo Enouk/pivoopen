@@ -1,0 +1,18 @@
+[
+	{
+		"name" : "Pivo 0",
+		"time" : "2011-07-01",
+		"location" : "Hällevik",
+		"courses" : ["Karlskrona", "Niklastorp"],
+		"players" : ["Tandy", "Dea", "Mevva"],
+		"winner" : "Tandy"
+	},
+	{
+		"name" : "Pivo 1",
+		"time" : "2012-07-01",
+		"location" : "Hällevik",
+		"courses" : ["Karlskrona", "Niklastorp"],
+		"players" : ["Tandy", "Dea", "Mevva"],
+		"winner" : "Tandy"
+	}
+]

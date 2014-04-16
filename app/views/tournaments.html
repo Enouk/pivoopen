@@ -1,0 +1,20 @@
+<po-navbar></po-navbar>
+<a class="btn btn-primary btn-large" href="#/tournament">Ny Turnering</a>
+<table class="table table-striped">
+ 	<tr>
+ 		<th>Namn</th>
+ 		<th>Tid</th>
+ 		<th>Plats</th>
+ 		<th>Banor</th>
+ 		<th>Spelare</th>
+ 		<th>Vinnare</th>
+ 	</tr>
+ 	<tr ng-repeat="t in tournaments">
+ 		<td>{{t.name}}</td>
+ 		<td>{{t.time}}</td>
+ 		<td>{{t.location}}</td>
+ 		<td>{{t.courses}}</td>
+ 		<td>{{t.players}}</td>
+ 		<td>{{t.winner}}</td>
+ 	</tr>
+</table>

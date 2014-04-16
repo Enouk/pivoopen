@@ -1,0 +1,11 @@
+<po-navbar></po-navbar>
+
+<a class="btn btn-primary btn-large" href="#/player">Ny Spelare</a>
+<table class="table table-striped" ng-controller="PlayersCtrl">
+ 	<tr><th>Namn</th><th>Handicap</th></tr>
+ 	<tr ng-repeat="player in players">
+ 		<td>{{player.name}}</td>
+ 		<td>{{player.handicap}}</td>
+ 	</tr>
+</table>
+
